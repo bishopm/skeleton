@@ -1,10 +1,10 @@
 <?php
 
-namespace Bishopm\Skeleton\Models;
+namespace Bishopm\Studioblog\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Skeleton extends Model
+class Studioblog extends Model
 {
     
     protected $guarded = array('id');

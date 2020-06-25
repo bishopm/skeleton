@@ -1,14 +1,14 @@
 <?php
 
-namespace Bishopm\Skeleton\Console;
+namespace Bishopm\Studioblog\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
 
 class InstallPackageCommand extends Command
 {
-    protected $signature = 'skeleton:install';
-    protected $description = 'Initial setup of Skeleton';
+    protected $signature = 'studioblog:install';
+    protected $description = 'Initial setup of Studioblog';
 
     public function handle()
     {

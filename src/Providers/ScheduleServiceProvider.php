@@ -1,6 +1,6 @@
 <?php
 
-namespace Bishopm\Skeleton\Providers;
+namespace Bishopm\Studioblog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Console\Scheduling\Schedule;
@@ -11,7 +11,7 @@ class ScheduleServiceProvider extends ServiceProvider
     {
         $this->app->booted(function () {
             $schedule = $this->app->make(Schedule::class);
-            // $schedule->command('skeleton:monthlyemails')->monthlyOn(1, '07:15');
+            // $schedule->command('studioblog:monthlyemails')->monthlyOn(1, '07:15');
         });
     }
 

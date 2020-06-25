@@ -1,9 +1,9 @@
 {
-    "name": "bishopm/skeleton",
+    "name": "bishopm/studioblog",
     "type": "library",
-    "description": "Laravel-based package",
+    "description": "Laravel-based blog using Canvas Studio",
     "keywords": [],
-    "homepage": "https://github.com/bishopm/skeleton",
+    "homepage": "https://github.com/bishopm/studioblog",
     "license": "MIT",
     "authors": [
         {
@@ -16,16 +16,18 @@
     "require": {
         "illuminate/support": "7.*",
         "laravelcollective/html": "6.*",
-        "laravel/ui": "2.*"
+        "laravel/ui": "2.*",
+        "cnvs/cnvas": "5.*",
+        "cnvs/studio": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Bishopm\\Skeleton\\": "src"
+            "Bishopm\\Studioblog\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "bishopm\\skeleton\\": "tests"
+            "bishopm\\studioblog\\": "tests"
         }
     },
     "scripts": {
@@ -49,7 +51,7 @@
         },
         "laravel": {
             "providers": [
-                "Bishopm\\Skeleton\\Providers\\SkeletonServiceProvider"
+                "Bishopm\\Studioblog\\Providers\\StudioblogServiceProvider"
             ]
         }
     }
